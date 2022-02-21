@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: ${POSTGRES_DB_URL:jdbc:postgresql://localhost:5432/hackathon?createDatabaseIfNotExist=true}
+    url: ${POSTGRES_DB_URL:jdbc:postgresql://db:5432/hackathon}
     username: ${POSTGRES_DB_USERNAME:postgres}
     password: ${POSTGRES_DB_PASSWORD:secret}
 
